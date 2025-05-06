@@ -3,12 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculadora Simples</title>
 </head>
 <body>
     
 </body>
 <script>
-
+/*neste código, x recebe o valor que vai ser utilizado para uma operação matemática simples. Dois valores são lidos e exibidos o resultado da operação*/
+var x;
+var n1;
+var n2;
+x = prompt("entre com uma letra para escolher a operação Matemática: (s)subtração, (m)multiplicação ou (d)divisão: ")
+n1 = prompt("entre com o primeiro número: ")
+n2 = prompt("entre com o segundo número: ")
+if (x == "s") alert(n1-n2);
+if (x == "m") alert(n1*n2);
+if (x == "d") alert(n1/n2);
 </script>
 </html>
